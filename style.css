@@ -42,13 +42,20 @@ form{
     flex-direction: column;
     gap: 25px;
 }
-input[type="email"], input[type="password"]{
+input[type="text"], input[type="email"], input[type="password"]{
     border: 1px solid var(--border-color);
     border-radius: 4px;
     padding: 15px 19px;
 }
 input::placeholder{
     color: var(--text-color);
+}
+.terms label{
+    margin-left: 14px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    align-self: flex-start;
 }
 button{
     padding-block: 15px;
@@ -73,7 +80,6 @@ button{
     width: 720px;
 }
 .column-info{
-    border: 1px solid blue;
     width: 525px;
 }
 .img-info{
